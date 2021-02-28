@@ -81,8 +81,10 @@ If your lastState.txt file is empty due to a failure when running update_cameras
 
 * Find the last successful log file in the logs directory;
 * Copy the sequenceNumber and timestamp into the file:
-`sequenceNumber=4273600
-timestamp=2020-11-07T20:35:29Z`
+
+`sequenceNumber=4273600`
+`timestamp=2020-11-07T20:35:29Z`
+
 * Run the update_cameras.sh script to pick up where it last left off.
 
 Credits
